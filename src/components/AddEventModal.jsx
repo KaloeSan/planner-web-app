@@ -20,8 +20,12 @@ function AddEventModal() {
       setEnd('');
       setAllDay(false);
     } else {
-      setStart(selectedSlot.start.toISOString().slice(0, 16));
-      setEnd(selectedSlot.end.toISOString().slice(0, 16));
+      const startDate = new Date(selectedSlot.start);
+      startDate.setHours(7, 0, 0, 0);
+      const endDate = new Date(selectedSlot.start);
+      endDate.setHours(22, 0, 0, 0);
+      setStart(startDate.toISOString().slice(0, 16));
+      setEnd(endDate.toISOString().slice(0, 16));
     }
   }, [showAddEventModal, selectedSlot]);
 

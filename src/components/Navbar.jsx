@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <nav className="flex justify-between items-center p-5">
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 flex-wrap">
         <Link to={'/'} className="text-2xl uppercase tracking-widest">
           Kamil Kostka Planner App
         </Link>

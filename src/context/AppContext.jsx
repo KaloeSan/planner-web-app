@@ -42,8 +42,14 @@ export const AppProvider = ({ children }) => {
       toast.success('Successfully registered new user.');
       navigate('/');
     } catch (error) {
-      console.log(error);
-      return toast.error('User already exists.');
+      console.log('Firebase error code:', error.code); // Add this line for debugging
+      if (error.code === 'auth/password-does-not-meet-requirements') {
+        return toast.error('Password must contain at least one uppercase letter, one lowercase letter, one number and one special character.');
+      } else if (error.code === 'auth/email-already-in-use') {
+        return toast.error('User already exists.');
+      } else {
+        return toast.error('An error occurred. Please try again.');
+      }
     }
   };
 

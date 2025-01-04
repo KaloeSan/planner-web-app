@@ -50,7 +50,7 @@ function AddNote() {
             placeholder="Note Content"
             {...register('noteContent')}
           ></textarea>
-          <button className="bg-primary text-primary-content text-center font-bold border-none px-10 py-5 rounded-sm tracking-widest uppercase hover:bg-primary-focus h-40" type="submit">
+          <button className="bg-primary text-primary-content text-center font-bold border-none px-3 py-5 rounded-sm tracking-widest uppercase hover:bg-primary-focus h-40 w-25" type="submit">
             Add Note
           </button>
         </div>
