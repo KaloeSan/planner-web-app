@@ -32,7 +32,7 @@ The Kamil Kostka Planner App is a web application designed to streamline users' 
 
 ## Live Demo
 Experience the Kamil Kostka Planner App firsthand by visiting my live demo:
-https://kamil-kostka-crud.web.app
+https://kamil-kostka-planner.web.app
 
 ## Author
 Kamil Kostka
