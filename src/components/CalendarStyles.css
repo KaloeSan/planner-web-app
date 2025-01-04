@@ -1,0 +1,49 @@
+.rbc-toolbar button {
+  color: #ffffff;
+}
+
+.rbc-event {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rbc-day-bg {
+  background-color: #3a3a3a;
+}
+
+.rbc-today {
+  background-color: #4a4a4a;
+}
+
+.rbc-off-range-bg {
+  background-color: #2d2d2d;
+}
+
+.form-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+}
+
+.form-checkbox:checked {
+  background-color: #ffffff;
+  border-color: #4CAF50;
+}
+
+.form-checkbox:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.5);
+}
+
+.all-day-label {
+  color: #ffffff;
+}

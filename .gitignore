@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Firebase
+firebase-debug.log
+firebase.json
+firestore.indexes.json
+firestore.rules
+
+# Vite
+dist/
+vite.config.js
+
+# IDE i edytory
+.vscode/
+.idea/
+.editorconfig
+
+# Inne
+.env
+.env.local
+.env.development
+.env.production
+firebase-debug.log
+vercel.json
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Pliki tymczasowe
+*.tmp
+*.log
+*.cache
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# Pliki kompilacji
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.csproj
+*.vbproj
+*.vcxproj
+*.vcxproj.filters
+*.sdf
+*.opensdf
