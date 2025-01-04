@@ -1,9 +1,9 @@
 import { initializeApp } from 'firebase/app';
 import { initializeAuth, browserLocalPersistence, indexedDBLocalPersistence, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
-import 'firebase/firestore';
 // https://firebase.google.com/docs/web/setup#available-libraries
 //import firebase from 'firebase/app';
+import 'firebase/firestore';
 
 const apiKey = import.meta.env.VITE_FIREBASE_API_KEY;
 const authDomain = import.meta.env.VITE_AUTH_DOMAIN;
