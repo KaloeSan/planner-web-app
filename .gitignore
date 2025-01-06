@@ -24,6 +24,7 @@ vite.config.js
 .env.production
 firebase-debug.log
 vercel.json
+jest.setup.js
 
 # Pliki systemowe
 .DS_Store
