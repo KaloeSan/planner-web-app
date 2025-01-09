@@ -20,7 +20,7 @@ function Login() {
 
   const schema = yup.object().shape({
     email: yup.string().email('Invalid email format').required('Email Is Required'),
-    password: yup.string().required('Password is required').min(6),
+    password: yup.string().required('Password is required').min(6), //Min 8 in Firebase!
   });
 
   const {

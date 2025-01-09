@@ -14,7 +14,7 @@ function Register() {
   const schema = yup.object().shape({
     name: yup.string().required('Name is required').min(2),
     email: yup.string().email('Invalid email format').required('Email Is Required'),
-    password: yup.string().required('Password is required').min(6),
+    password: yup.string().required('Password is required').min(6), //Min 8 in Firebase!
     confirmPassword: yup
       .string()
       .required('Confirm the password')
