@@ -3,7 +3,6 @@ import { render, screen, fireEvent, act } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import AddNote from './AddNote';
 import AppContext from '../context/AppContext';
-import { toast } from 'react-toastify';
 
 jest.mock('react-toastify');
 
